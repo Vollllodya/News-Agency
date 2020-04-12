@@ -23,6 +23,10 @@ address>span {
     padding-bottom: 15px;
 }
 
+.button-navigation li:nth-of-type(5) {
+    padding-bottom: 0;
+}
+
 .button-navigation>ul>li>a {
     text-decoration: none;
     color: white;
@@ -60,6 +64,7 @@ address>span {
 
 .social-links {
     list-style: none;
+    padding-top: 5px;
 }
 
 .social-links li {
@@ -77,21 +82,25 @@ address>span {
 
 .number {
     float: left;
-    margin-top: 40px;
+    margin-top: 58px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     padding-left: 53px;
     background: url(../img/phone.png) 11% center no-repeat;
     font-style: normal;
+    text-decoration: none;
+    color: white;
 }
 
 .mail {
     float: left;
-    margin-top: 20px;
+    margin-top: 24px;
     font-size: 18px;
     padding-left: 53px;
     background: url(../img/message.png) 15% center no-repeat;
     font-style: normal;
+    text-decoration: none;
+    color: white;
 }
 
 .bottom-section-new {
@@ -103,4 +112,28 @@ address>span {
     color: #727882;
     font-size: 14px;
     background-color: #00122f;
+}
+
+.social-links-inst {
+    background: url(../img/instaram.png) 100% center no-repeat;
+    font-size: 0;
+    padding: 20px 20px;
+}
+
+.social-links-vk {
+    background: url(../img/vk.png) 100% center no-repeat;
+    font-size: 0;
+    padding: 20px 20px;
+}
+
+.social-links-fac {
+    background: url(../img/facebook.png) 100% center no-repeat;
+    font-size: 0;
+    padding: 20px 20px;
+}
+
+.social-links-twit {
+    background: url(../img/twitter.png) 100% center no-repeat;
+    font-size: 0;
+    padding: 20px 20px;
 }
