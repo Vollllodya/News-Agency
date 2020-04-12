@@ -1,0 +1,203 @@
+@import url(bottom-section.css);
+
+main {
+    position: relative;
+    z-index: 780;
+    background-color: #f9f9f9;
+    padding-top: 21px;
+    padding-bottom: 56px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 23.5px 0 22px 18px;
+    border-bottom: 2px solid #e5e5e5;
+    margin-bottom: 28px;
+    letter-spacing: -0.33px;
+}
+
+h3 {
+    margin-top: 24px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.38;
+}
+
+h3 a{
+    color: black;
+    text-decoration: none;
+}
+
+aside {
+    width: 250px;
+    float: right;
+}
+
+aside img:first-of-type {
+    padding-bottom: 16px;
+}
+
+.news-block {
+    background-color: white;
+    width: 250px;
+    box-shadow: 0 0 10px 10px #efefef;
+    padding-bottom: 25px;
+    float: left;
+    padding-right: 0;
+}
+
+.news-block ul {
+    list-style: none;
+}
+
+.news-block>a {
+    color: #448ccb;
+    text-decoration: none;
+    border: 1px solid #448ccb;
+    padding: 12px 0;
+    border-radius: 25px;
+    display: block;
+    width: 175px;
+    text-align: center;
+    margin: 40px 36px 0 38px;
+    font-style: 14px;
+    letter-spacing: -0.65px;
+}
+
+.center-colomn {
+    width: 460px;
+    float: left;
+    padding-left: 20px;
+}
+
+.center-colomn ul {
+    list-style: none;
+}
+
+.center-colomn li:first-of-type img {
+    width: 100%;
+}
+
+.center-colomn li:first-of-type {
+    padding-bottom: 15px;
+}
+
+.center-colomn li:not(:first-of-type) {
+    width: 220px;
+    padding-bottom: 22px;
+    float: left;
+}
+
+.center-colomn li:not(:first-of-type) h3 {
+    margin-top: 3px;
+    margin-bottom: 13px;
+}
+
+.center-colomn li:nth-of-type(2n) {
+    padding-right: 20px;
+}
+
+.center-colomn article {
+    position: relative;
+}
+
+.abs-wraper {
+    position: absolute;
+    left: 21px;
+    bottom: 41px;
+    letter-spacing: -0.33px;
+}
+
+.abs-wraper>a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.abs-wraper>a::before {
+    content: "/ ";
+}
+
+.abs-wraper h3 a {
+    color: white;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.abs-wraper h3 {
+    margin-top: 16px;
+}
+
+.abs-wraper time {
+    color: white;
+    font-size: 12px;
+}
+
+.abs-wraper time span {
+    background: url(../img/time-white.png) 40% center no-repeat;
+    padding-left: 32px;
+}
+
+.news {
+    padding-left: 18px;
+}
+
+.news>a {
+    color: #aaaab5;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.news>a::before {
+    content: "/ ";
+}
+
+.news time {
+    font-size: 12px;
+    float: right;
+    background: url(../img/icon-time.png) 1% center no-repeat;
+    padding-left: 17px;
+    padding-right: 20px;
+}
+
+.news span {
+    font-size: 12px;
+    float: right;
+    background: url(../img/icon-comments.png) 1% center no-repeat;
+    padding-left: 17px;
+    padding-right: 38px;
+}
+
+.news-center>a {
+    color: #aaaab5;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.news-center>a::before {
+    content: "/ ";
+}
+
+.news-center time {
+    font-size: 12px;
+    float: right;
+    background: url(../img/icon-time.png) 1% center no-repeat;
+    padding-left: 17px;
+    padding-right: 20px;
+}
+
+.news-center span {
+    font-size: 12px;
+    float: right;
+    background: url(../img/icon-comments.png) 1% center no-repeat;
+    padding-left: 17px;
+    padding-right: 56px;
+}

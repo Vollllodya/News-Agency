@@ -1,0 +1,106 @@
+footer {
+    width: 100%;
+    background-color: #00122f;
+    padding-top: 52px;
+    position: relative;
+}
+
+address>span {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+.button-navigation ul {
+    display: inline-block;
+    columns: 2;
+    list-style: none;
+    column-width: 110px;
+    column-gap: 28px;
+}
+
+.button-navigation li {
+    padding-bottom: 15px;
+}
+
+.button-navigation>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-navigation-wraper {
+    float: left;
+}
+
+.about-wraper {
+    float: left;
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+.about-wraper li {
+    padding-bottom: 15px;
+}
+
+.social-links-wraper {
+    margin-top: 8px;
+}
+
+.about {
+    list-style: none;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.about>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links {
+    list-style: none;
+}
+
+.social-links li {
+    float: right;
+}
+
+.social-links>li>a {
+    text-decoration: none;
+    margin-left: 21px;
+}
+
+.social-links-wraper {
+    float: right;
+}
+
+.number {
+    float: left;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-left: 53px;
+    background: url(../img/phone.png) 11% center no-repeat;
+    font-style: normal;
+}
+
+.mail {
+    float: left;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 53px;
+    background: url(../img/message.png) 15% center no-repeat;
+    font-style: normal;
+}
+
+.bottom-section-new {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #26354e;
+    color: #727882;
+    font-size: 14px;
+    background-color: #00122f;
+}
